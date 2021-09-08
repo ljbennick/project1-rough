@@ -1,0 +1,25 @@
+/* body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqfW4KCxWg1ITFzBjuIMnfcEOjHfQUvpECQA&usqp=CAU");
+  image-rendering: optimizeQuality;
+  content: "\F0C8D";
+  height: 100%;
+  width: 100%;
+} */
+
+body {
+  background-image: url("https://coolwallpapers.me/picsup/1416408-bloodborne.jpg");
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqfW4KCxWg1ITFzBjuIMnfcEOjHfQUvpECQA&usqp=CAU"); The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 700px; /* You must set a specified height */
+  image-rendering: optimizeQuality;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.p1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: blue;
+}
